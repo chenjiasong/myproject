@@ -1,0 +1,15 @@
+server: 
+  port: 3344 
+  
+spring:
+  application:
+    name:  myproject-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:chenjiasong/myproject-config.git #GitHub上面的git仓库名字
+
+          #http://config-3344.com:3344/dev/application-dev.yml 访问地址
+ 
+
