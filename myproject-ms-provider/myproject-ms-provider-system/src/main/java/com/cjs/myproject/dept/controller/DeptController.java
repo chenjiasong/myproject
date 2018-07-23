@@ -1,7 +1,7 @@
 package com.cjs.myproject.dept.controller;
 
-import com.cjs.myproject.entities.Dept;
-import com.cjs.myproject.service.DeptService;
+import com.cjs.myproject.dept.entities.Dept;
+import com.cjs.myproject.dept.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;

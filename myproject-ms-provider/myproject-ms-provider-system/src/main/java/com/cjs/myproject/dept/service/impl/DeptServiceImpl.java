@@ -1,8 +1,8 @@
 package com.cjs.myproject.dept.service.impl;
 
-import com.cjs.myproject.dao.DeptDao;
-import com.cjs.myproject.entities.Dept;
-import com.cjs.myproject.service.DeptService;
+import com.cjs.myproject.dept.dao.DeptDao;
+import com.cjs.myproject.dept.entities.Dept;
+import com.cjs.myproject.dept.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

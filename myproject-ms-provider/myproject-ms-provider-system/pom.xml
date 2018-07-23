@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>myproject-ms-provider</artifactId>
-        <groupId>com.cjs.myproject</groupId>
+        <groupId>com.cjs.myproject.provider</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -12,6 +12,12 @@
     <artifactId>myproject-ms-provider-system</artifactId>
 
     <dependencies>
+        <!--私有API -->
+        <dependency>
+            <groupId>com.cjs.myproject.provider.api</groupId>
+            <artifactId>myproject-ms-api-system</artifactId>
+        </dependency>
+        <!--私有API -->
         <!-- SpringCloudConfig配置 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -24,11 +30,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.cjs.myproject</groupId>
-            <artifactId>myproject-api</artifactId>
-            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

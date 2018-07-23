@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.cjs.myproject.provider</groupId>
     <artifactId>myproject-ms-provider</artifactId>
     <packaging>pom</packaging>
     <modules>
@@ -28,11 +29,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.cjs.myproject</groupId>
-            <artifactId>myproject-api</artifactId>
-            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

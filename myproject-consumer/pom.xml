@@ -9,12 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.cjs.myproject.provider.api</groupId>
-    <artifactId>myproject-ms-api</artifactId>
-    <packaging>pom</packaging>
+    <groupId>com.cjs.myproject.consumer</groupId>
+    <artifactId>myproject-consumer</artifactId>
     <modules>
-        <module>myproject-ms-api-system</module>
+        <module>myproject-consumer-system</module>
     </modules>
-
 
 </project>

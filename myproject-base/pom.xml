@@ -9,12 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.cjs.myproject.provider.api</groupId>
-    <artifactId>myproject-ms-api</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>myproject-ms-api-system</module>
-    </modules>
+    <groupId>com.cjs.myproject.base</groupId>
+    <artifactId>myproject-base</artifactId>
 
+    <modules>
+        <module>myproject-base-config</module>
+        <module>myproject-base-eureka</module>
+        <module>myproject-base-hystrix-dashboard</module>
+        <module>myproject-base-zuul-gateway</module>
+    </modules>
 
 </project>

@@ -1,7 +1,8 @@
 package com.cjs.myproject.dept.service;
 
 
-import com.cjs.myproject.entities.Dept;
+
+import com.cjs.myproject.dept.entities.Dept;
 
 import java.util.List;
 

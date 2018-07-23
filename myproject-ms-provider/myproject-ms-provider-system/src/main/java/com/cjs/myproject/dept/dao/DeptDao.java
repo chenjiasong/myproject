@@ -1,6 +1,6 @@
 package com.cjs.myproject.dept.dao;
 
-import com.cjs.myproject.entities.Dept;
+import com.cjs.myproject.dept.entities.Dept;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
