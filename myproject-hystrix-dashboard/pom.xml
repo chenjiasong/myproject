@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>myproject-hystrix-dashboard</artifactId>
+    <packaging>pom</packaging>
 
     <dependencies>
         <!-- 自己定义的api -->

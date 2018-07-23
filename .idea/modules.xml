@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/myproject.iml" filepath="$PROJECT_DIR$/myproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject-api/myproject-api.iml" filepath="$PROJECT_DIR$/myproject-api/myproject-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject-config/myproject-config.iml" filepath="$PROJECT_DIR$/myproject-config/myproject-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject-consumer-dept/myproject-consumer-dept.iml" filepath="$PROJECT_DIR$/myproject-consumer-dept/myproject-consumer-dept.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject-eureka/myproject-eureka.iml" filepath="$PROJECT_DIR$/myproject-eureka/myproject-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject-hystrix-dashboard/myproject-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/myproject-hystrix-dashboard/myproject-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject-ms-dept/myproject-ms-dept.iml" filepath="$PROJECT_DIR$/myproject-ms-dept/myproject-ms-dept.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject-zuull-gateway/myproject-zuull-gateway.iml" filepath="$PROJECT_DIR$/myproject-zuull-gateway/myproject-zuull-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject-ms-provider/myprojectmsprovider.iml" filepath="$PROJECT_DIR$/myproject-ms-provider/myprojectmsprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myproject-ms-provider/myproject-ms-provider-system/myprojectmsprovidersystem.iml" filepath="$PROJECT_DIR$/myproject-ms-provider/myproject-ms-provider-system/myprojectmsprovidersystem.iml" />
+    </modules>
+  </component>
+</project>

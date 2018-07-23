@@ -6,14 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="myprojectapi" />
-        <module name="myprojectconfig" />
-        <module name="myprojectconsumerdept" />
-        <module name="myprojecteureka" />
-        <module name="myprojecthystrixdashboard" />
-        <module name="myprojectmsdept" />
-        <module name="myprojectzuullgateway" />
+        <module name="myproject-api" />
+        <module name="myproject-config" />
+        <module name="myproject-consumer-dept" />
+        <module name="myproject-eureka" />
+        <module name="myproject-ms-dept" />
+        <module name="myproject-zuull-gateway" />
+        <module name="myprojectmsprovidersystem" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="myproject" target="1.8" />
+      <module name="myproject-api" target="1.8" />
+      <module name="myproject-config" target="1.8" />
+      <module name="myproject-consumer-dept" target="1.8" />
+      <module name="myproject-eureka" target="1.8" />
+      <module name="myproject-hystrix-dashboard" target="1.8" />
+      <module name="myproject-ms-dept" target="1.8" />
+      <module name="myproject-zuull-gateway" target="1.8" />
+      <module name="myprojectmsprovider" target="1.8" />
+      <module name="myprojectmsprovidersystem" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

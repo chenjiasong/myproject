@@ -16,6 +16,8 @@
         <module>myproject-consumer-dept</module>
         <module>myproject-hystrix-dashboard</module>
         <module>myproject-zuull-gateway</module>
+        <module>myproject-ms-provider</module>
+        <module>myproject-ms-provider</module>
     </modules>
 
 
