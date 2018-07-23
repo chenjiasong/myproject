@@ -12,12 +12,12 @@
         <module>myproject-config</module>
         <module>myproject-eureka</module>
         <module>myproject-api</module>
-        <module>myproject-ms-dept</module>
         <module>myproject-consumer-dept</module>
         <module>myproject-hystrix-dashboard</module>
-        <module>myproject-zuull-gateway</module>
+        <module>myproject-zuul-gateway</module>
         <module>myproject-ms-provider</module>
         <module>myproject-ms-provider</module>
+        <module>myproject-ms-api</module>
     </modules>
 
 
