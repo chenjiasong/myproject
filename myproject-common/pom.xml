@@ -9,10 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.cjs.myproject.consumer</groupId>
-    <artifactId>myproject-consumer</artifactId>
+    <groupId>com.cjs.myproject.common</groupId>
+    <artifactId>myproject-common</artifactId>
+    <packaging>pom</packaging>
     <modules>
-        <module>myproject-consumer-system</module>
+        <module>myproject-common-core</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

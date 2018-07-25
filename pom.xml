@@ -12,7 +12,7 @@
         <module>myproject-ms-provider</module>
         <module>myproject-ms-api</module>
         <module>myproject-base</module>
-        <module>myproject-consumer</module>
+        <module>myproject-common</module>
     </modules>
 
 
@@ -52,6 +52,11 @@
             <dependency>
                 <groupId>com.cjs.myproject.provider.api</groupId>
                 <artifactId>myproject-ms-api-system</artifactId>
+                <version>${myproject.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.cjs.myproject.common</groupId>
+                <artifactId>myproject-common-core</artifactId>
                 <version>${myproject.version}</version>
             </dependency>
             <!--私有API -->
@@ -99,6 +104,26 @@
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>2.7.0</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>2.7.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.didispace</groupId>
+                <artifactId>swagger-butler-core</artifactId>
+                <version>1.1.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.16.14</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
